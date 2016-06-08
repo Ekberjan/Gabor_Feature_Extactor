@@ -36,7 +36,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "feature size: " << feature.size() << std::endl;
 
 	// Use the obtained Gabor feature for further steps based on your goal,
-	// such as send it to classifier
+	// such as send it to classifier.
 
 
 	return 0;
