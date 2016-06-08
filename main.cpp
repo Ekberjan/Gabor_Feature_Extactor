@@ -26,7 +26,6 @@ int _tmain(int argc, _TCHAR* argv[])
 		for (int y = 0; y < gaborMat.rows; y++)
 		{
 			const double* My = gaborMat.ptr<double>(y);
-
 			for (int z = 0; z < gaborMat.cols; z++)
 			{
 				feature.push_back(My[z]);
